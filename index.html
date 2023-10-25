@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="heading">Routine starts in..</h1>
+    <h2 id="subheading">subheading here</h2>
+    <div id="progress-bar">
+        <svg id="progress" width="240" height="240" viewBox="0 0 240 240">
+            <circle class="progress-circle" cx="120" cy="120" r="110" />
+            <circle class="progress-fill" cx="120" cy="120" r="110" />
+            <text class="progress-text" x="50%" y="50%" text-anchor="middle" dy="8">00:00</text>
+        </svg>
+    </div>
+    <div id="buttons">
+        <button id="skip">Skip</button>
+        <button id="add">+10 sec</button>
+    </div>
+    <div id="step">
+        <h3>Step 2/3</h3>
+        <p>Cleansing</p>
+        <p>00:60</p>
+        <a href="#">How to do</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
